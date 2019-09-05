@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Cmn Location" max_length="40" name="u_imp_tmpl_cmn_location" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=admin" label="admin" max_length="40" name="u_admin" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=capital" label="capital" max_length="40" name="u_capital" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=city" label="city" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=country" label="country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=iso2" label="iso2" max_length="40" name="u_iso2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=lat" label="lat" max_length="40" name="u_lat" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=lng" label="lng" max_length="40" name="u_lng" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=population" label="population" max_length="40" name="u_population" type="integer"/>
+        <element attributes="import_attribute_name=population_proper" label="population_proper" max_length="40" name="u_population_proper" type="integer"/>
+    </element>
+</database>
